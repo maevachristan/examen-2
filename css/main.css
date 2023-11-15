@@ -68,3 +68,48 @@ video {
     display: none;
   }
 }
+
+.event {
+  position: relative;
+}
+
+.event img {
+  width: 100%;
+  aspect-ratio: 1.2;
+  object-fit: cover;
+}
+
+.golden-event {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.event-date {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+}
+
+.event-title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.event-description {
+  display: flex;
+  padding: 20px 0;
+}
+
+.event-description p {
+  padding-right: 15px;
+}
+
+.event-description .age {
+  border-left: #000000 solid 2px;
+  padding: 10px 20px;
+}
