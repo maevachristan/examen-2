@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <title>Examen 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,700;1,800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="container-fluid">
         <div class="row">
           <div class="col-9 col-lg-6">
-            <h1><img src="img/super_mario_land_logo.svg" alt="Le logo du restaurant" /></h1>
+            <h1><img src="img/super_mario_land_logo.svg" alt="Le logo du restaurant"></h1>
           </div>
           <div class="col-3 col-lg-6">
             <div class="burger">Burger menu</div>
@@ -23,8 +26,9 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <p>Explorez un monde de délices et de surprises en compagnie de Mario !</p>
-            <div>decouvrez nos formules</div>
+            <p class="first-quote">Explorez un monde de délices et de surprises 
+              en compagnie de Mario !</p>
+            <div class="forms">decouvrez nos formules</div>
           </div>
         </div>
       </div>
@@ -33,25 +37,26 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <p>vivez une immersion dans le pays des champignons</p>
-            <p>
-              Nous sommes un restaurant familial sur le thème Mario Bros. Nous proposons de nombreux
-              évènements pour vivre une expérience immersive dans le monde de Mario Bros.
-            </p>
+            <p class="red-quote">vivez une immersion dans le pays des champignons</p>
+            <p class="description">Nous sommes un restaurant familial sur le 
+              thème Mario Bros. Nous proposons de nombreux évènements pour vivre 
+              une expérience immersive dans le monde de Mario Bros.</p>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-9"><h2>nos prochains evenements</h2></div>
-          <div class="col-12 col-lg-3 mobile"><div>tous les evenements</div></div>
+          <div class="col-12 col-lg-3 mobile">
+            <div class="all-events">tous les evenements</div>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
             <div class="event">
-              <img src="img/mario_kart.jpg" alt="Mario dans son kart" />
+              <img src="img/mario_kart.jpg" alt="Mario dans son kart">
               <div class="event-date">13.10.23</div>
               <div class="event-title">battles mario kart</div>
             </div>
@@ -62,7 +67,7 @@
           </div>
           <div class="col-12 col-lg-4">
             <div class="event">
-              <img src="img/super_mario_bros.jpg" alt="Mario et Luigi dans le ciel" />
+              <img src="img/super_mario_bros.jpg" alt="Mario et Luigi dans le ciel">
               <div class="event-date">20.10.23</div>
               <div class="event-title">battles super mario</div>
             </div>
@@ -73,7 +78,7 @@
           </div>
           <div class="col-12 col-lg-4">
             <div class="event">
-              <img src="img/luigi_mansion.jpg" alt="Luigi dans le manoir hanté" />
+              <img src="img/luigi_mansion.jpg" alt="Luigi dans le manoir hanté">
               <div class="golden-event">golden event</div>
               <div class="event-date">21.10.23</div>
               <div class="event-title">luigi mansion chasse</div>
@@ -89,7 +94,7 @@
         <div class="row">
           <div class="col-12 col-lg-4 mobile">
             <div class="event">
-              <img src="img/pieces_dor.png" alt="Les pièces d'or dans Mario Bros" />
+              <img src="img/pieces_dor.png" alt="Les pièces d'or dans Mario Bros">
               <div class="event-date">27.10.23</div>
               <div class="event-title">collecte de pieces d'or</div>
             </div>
@@ -100,7 +105,7 @@
           </div>
           <div class="col-12 col-lg-4 mobile">
             <div class="event">
-              <img src="img/the_quiz.jpg" alt="Toad dans son monde champignon" />
+              <img src="img/the_quiz.jpg" alt="Toad dans son monde champignon">
               <div class="event-date">03.11.23</div>
               <div class="event-title">soiree grand quiz</div>
             </div>
@@ -111,7 +116,7 @@
           </div>
           <div class="col-12 col-lg-4 mobile">
             <div class="event">
-              <img src="img/mario_burger.jpg" alt="Mario et un burger en fond" />
+              <img src="img/mario_burger.jpg" alt="Mario et un burger en fond">
               <div class="golden-event">golden event</div>
               <div class="event-date">04.11.23</div>
               <div class="event-title">cuisine ton burger</div>
@@ -125,57 +130,61 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12"><div>tous les evenements</div></div>
+          <div class="col-12"><div class="all-events-two">tous les evenements</div></div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12"><h2>nos best sellers</h2></div>
+          <div class="col-12"><h2 class="best-sellers">nos best sellers</h2></div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
-            <img src="img/burger_mario.png" alt="Burger de boeuf" />
+            <img src="img/burger_mario.png" alt="Burger de boeuf">
             <h4>menu mario</h4>
-            <p>Burger de boeuf, tomates, cheddar, salade, oignons + frites/potatoes...</p>
+            <p class="menu-description">Burger de boeuf, tomates, cheddar, 
+              salade, oignons + frites/potatoes...</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="img/menu_luigi.png" alt="Burger d'émincé de poulet" />
+            <img src="img/menu_luigi.png" alt="Burger d'émincé de poulet">
             <h4>menu luigi</h4>
-            <p>Burger de poulet, tomates, salade, cornichons, parmesan + frites/potatoes...</p>
+            <p class="menu-description">Burger de poulet, tomates, salade, 
+              cornichons, parmesan + frites/potatoes...</p>
           </div>
           <div class="col-12 col-lg-4">
-            <img src="img/menu_peach.png" alt="Burger de poulet crispy" />
+            <img src="img/menu_peach.png" alt="Burger de poulet crispy">
             <h4>menu peach</h4>
-            <p>Burger crispy poulet, tomates, salade, cheddar, moutarde + frites/potatoes...</p>
+            <p class="menu-description">Burger crispy poulet, tomates, salade, 
+              cheddar, moutarde + frites/potatoes...</p>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4 mobile">
-            <img src="img/menu_bowser.png" alt="Burger double-boeuf" />
+            <img src="img/menu_bowser.png" alt="Burger double-boeuf">
             <h4>menu bowser</h4>
-            <p>Burger double-boeuf, lard, tomates, salade, gruyère, oignons + frites/potatoes...</p>
+            <p class="menu-description">Burger double-boeuf, lard, tomates, 
+              salade, gruyère, oignons + frites/potatoes...</p>
           </div>
           <div class="col-12 col-lg-4 mobile">
-            <img src="img/menu_yoshi.png" alt="Burger de poisson" />
+            <img src="img/menu_yoshi.png" alt="Burger de poisson">
             <h4>menu yoshi</h4>
-            <p>
-              Burger crispy fish, salade, cornichons, cheddar, sauce blanche + frites/potatoes...
-            </p>
+            <p class="menu-description">Burger crispy fish, salade, cornichons, 
+              cheddar, sauce blanche + frites/potatoes...</p>
           </div>
           <div class="col-12 col-lg-4 mobile">
-            <img src="img/menu_toad.png" alt="Burger de boeuf aux moilles" />
+            <img src="img/menu_toad.png" alt="Burger de boeuf aux moilles">
             <h4>menu toad</h4>
-            <p>Burger de boeuf, tomates, salade, gruyère, sauce morilles + frites/potatoes...</p>
+            <p class="menu-description">Burger de boeuf, tomates, salade, 
+              gruyère, sauce morilles + frites/potatoes...</p>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12"><div>carte complete</div></div>
+          <div class="col-12"><div class="all-food">carte complete</div></div>
         </div>
       </div>
     </main>
@@ -183,7 +192,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3><img src="img/super_mario_land_logo.svg" alt="Le logo du restaurant" /></h3>
+            <h3><img src="img/super_mario_land_logo.svg" alt="Le logo du restaurant"></h3>
           </div>
         </div>
       </div>
@@ -191,28 +200,36 @@
         <div class="row">
           <div class="col-12 col-lg-4">
             <h5>adresse</h5>
-            <p>Super Mario Land<br />Rue du Rhône 4<br />1204 Genève<br />CH Suisse</p>
+            <p class="infos">Super Mario Land<br>Rue du Rhône 4<br>1204 Genève
+              <br>CH Suisse</p>
           </div>
           <div class="col-12 col-lg-4">
             <h5>horaires</h5>
-            <p>LU-JE : 10h00 à 22h00<br />VE-SA : 10h00 à 00h00<br />DI : Fermé</p>
+            <p class="infos">LU-JE : 10h00 à 22h00<br>VE-SA : 10h00 à 00h00
+              <br>DI : Fermé</p>
           </div>
           <div class="col-12 col-lg-4">
             <h5>newsletter</h5>
-            <p>Soyez les premiers informés de nos évènements.</p>
+            <p class="infos">Soyez les premiers informés de nos évènements.</p>
             <div class="email-address">entrer votre adresse email</div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4 order-lg-2">S'abonner</div>
-          <div class="col-12 col-lg-4 order-lg-1">Réserver une table</div>
+          <div class="col-12 col-lg-4 order-lg-2">
+            <div class="follow">s'abonner</div>
+          </div>
+          <div class="col-12 col-lg-4 order-lg-1">
+            <div class="book-table">reserver une table</div>
+          </div>
           <div class="col-12 col-lg-4">
-            <p>+41 25 678 23 45</p>
-            <a href="mailto:info@super-mario-land.ch">info@super-mario-land.ch</a>
+            <p class="infos">+41 25 678 23 45</p>
+            <a class="infos" href="mailto:info@super-mario-land.ch">info@super-mario-land.ch</a>
             <div class="networks">
-              <img src="img/instagram.svg" alt="Le logo d'Instragram en noir" />
+              <img src="img/instagram.svg" alt="Le logo d'Instragram en noir">
+              <img src="img/facebook.svg" alt="Le logo de Facebook en noir">
+              <img src="img/tiktok.svg" alt="Le logo de TikTok en noir">
             </div>
           </div>
         </div>
