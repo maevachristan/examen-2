@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Super Mario 256";
   src:
@@ -57,6 +61,7 @@ video {
   border: 1px solid #00ff2a33;
 }
 
+
 @media (min-width: 992px) {
   .burger {
     display: none;
@@ -77,6 +82,16 @@ video {
 
 h1 img {
   width: 450px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-menu {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .first-quote {
@@ -101,6 +116,11 @@ h1 img {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.forms:hover {
+  background-color: #ffc805;
 }
 
 .red-quote {
@@ -142,6 +162,11 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.all-events:hover {
+  background-color: #ffc805;
 }
 
 .event {
@@ -183,6 +208,7 @@ h2 {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
+  padding: 9px 0;
 }
 
 .best-sellers {
@@ -213,6 +239,11 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.all-events-two:hover {
+  background-color: #ffc805;
 }
 
 h4 {
@@ -243,6 +274,11 @@ h4 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.all-food:hover {
+  background-color: #ffc805;
 }
 
 h3 img {
@@ -263,7 +299,6 @@ h5 {
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
-  text-decoration: none;
 }
 
 .book-table {
@@ -278,10 +313,15 @@ h5 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.book-table:hover {
+  background-color: #ffc805;
 }
 
 .follow {
-  background-color: #ff0000;
+  background-color: #00b2ff;
   border: 1.5px solid #000000;
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.50);
   width: 122px;
@@ -292,4 +332,15 @@ h5 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 16px 0;
+}
+
+.follow:hover {
+  background-color: #1bc200;
+}
+
+.context {
+  font-family: 'Work sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
 }
