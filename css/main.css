@@ -68,11 +68,7 @@ video {
   }
 }
 
-@media (max-width: 991px) {
-  .home-menu {
-    display: none;
-  }
-}
+
 
 @media (max-width: 991px) {
   .mobile {
@@ -94,6 +90,15 @@ a {
   font-size: 20px;
   font-weight: 500;
   margin: 41px 0 41px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+@media (max-width: 991px) {
+  .home-menu {
+    display: none;
+  }
 }
 
 .first-quote {
@@ -112,14 +117,17 @@ a {
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.50);
   width: 324px;
   height: 53px;
+  text-align: center;
+  margin: 41px auto 0;
+  padding: 16px 0;
+}
+
+.forms a {
   color: #ffffff;
   -webkit-text-stroke: 1px #000000;
   font-family: 'Super Mario 256', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  text-align: center;
-  margin: 41px auto 0;
-  padding: 16px 0;
 }
 
 .banner {
@@ -177,11 +185,6 @@ h2 {
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.50);
   width: 261px;
   height: 51px;
-  color: #ffffff;
-  -webkit-text-stroke: 1px #000000;
-  font-family: 'Super Mario 256', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
   text-align: center;
   margin: 58px 0 52px 0;
   padding: 16px 0;
@@ -189,6 +192,14 @@ h2 {
 
 .all-events:hover {
   background-color: #ffc805;
+}
+
+.all-events a, .all-events-two a, .all-food a {
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000000;
+  font-family: 'Super Mario 256', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .right {
@@ -259,6 +270,12 @@ h2 {
   font-size: 17px;
   font-weight: 500;
   display: flex;
+}
+
+@media (max-width: 991px) {
+  .event-description {
+    display: none;
+  }
 }
 
 .age {
