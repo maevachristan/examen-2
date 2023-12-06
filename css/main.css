@@ -191,6 +191,11 @@ h2 {
   background-color: #ffc805;
 }
 
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .event {
   position: relative;
 }
@@ -285,13 +290,18 @@ h2 {
   background-color: #ffc805;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .red {
   background-color: #ff5c004d;
 }
 
 .best-sellers {
   text-align: center;
-  margin: 80px 0 48px 0;
+  margin: 80px 0 0 ;
 }
 
 h4 {
@@ -301,6 +311,7 @@ h4 {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;
+  text-align: center;
   text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.50);
   margin-bottom: 28px;
 }
@@ -309,6 +320,7 @@ h4 {
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
   font-weight: 500;
+  text-align: center;
 }
 
 .all-food {
@@ -403,8 +415,19 @@ h5 {
   padding: 12px 14px 12px;
 }
 
+.networks {
+  display: flex;
+  margin: 14px 0 76px;
+}
+
+.networks img {
+  margin-right: 14px;
+  width: 25px;
+}
+
 .context {
   font-family: 'Work sans', sans-serif;
   font-size: 15px;
   font-weight: 500;
+  margin-bottom: 13px;
 }
