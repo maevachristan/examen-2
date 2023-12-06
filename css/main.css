@@ -49,7 +49,7 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
+/* .row + .row {
   margin-top: 16px;
 }
 
@@ -59,7 +59,7 @@ video {
   padding-bottom: 12px;
   background-color: #00ff1526;
   border: 1px solid #00ff2a33;
-}
+} */
 
 
 @media (min-width: 992px) {
@@ -69,7 +69,7 @@ video {
 }
 
 @media (max-width: 991px) {
-  .nav {
+  .home-menu {
     display: none;
   }
 }
@@ -81,6 +81,7 @@ video {
 }
 
 h1 img {
+  margin: 32px 0;
   width: 450px;
 }
 
@@ -92,16 +93,17 @@ a {
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 500;
+  margin: 41px 0 41px 0;
 }
 
 .first-quote {
   color: #ffffff;
   text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.50);
-  width: 773px;
   font-family: 'Work Sans', sans-serif;
   font-size: 44px;
   font-weight: 900;
   text-align: center;
+  margin: 0 10px;
 }
 
 .forms {
@@ -116,7 +118,16 @@ a {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
+  margin: 41px auto 0;
   padding: 16px 0;
+}
+
+.banner {
+  background-image: url(../img/inside.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 230px;
+  padding-bottom: 241px;
 }
 
 .forms:hover {
@@ -131,6 +142,7 @@ a {
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 90px;
 }
 
 .description {
@@ -138,6 +150,15 @@ a {
   font-size: 28px;
   font-weight: 500;
   text-align: center;
+  margin: 20px 0 90px;
+}
+
+.yellow {
+  background-color: #fbcb4f4d;
+}
+
+.next-events {
+  margin: 68px 0 48px 0;
 }
 
 h2 {
@@ -162,6 +183,7 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  margin: 58px 0 52px 0;
   padding: 16px 0;
 }
 
@@ -187,6 +209,10 @@ h2 {
   font-size: 20px;
   font-style: italic;
   font-weight: 800;
+  position: absolute;
+  left: 22px;
+  right: 0;
+  bottom: 55px;
 }
 
 .event-title {
@@ -195,6 +221,10 @@ h2 {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1.5px;
+  position: absolute;
+  left: 22px;
+  right: 58px;
+  bottom: 21px;
 }
 
 .golden-event {
@@ -209,22 +239,30 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding: 9px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.best-sellers {
-  text-align: center;
+.reward {
+  margin: 28px 16px 0 16px;
 }
 
 .event-description {
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
   font-weight: 500;
+  display: flex;
 }
 
 .age {
+  border-left: #000000 1.5px solid;
   font-family: 'Work Sans', sans-serif;
   font-size: 23px;
   font-weight: 700;
+  margin: 19px 0 54px 0;
+  padding: 13px 30px;
 }
 
 .all-events-two {
@@ -239,11 +277,21 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  margin: 85px 0 80px 0;
   padding: 16px 0;
 }
 
 .all-events-two:hover {
   background-color: #ffc805;
+}
+
+.red {
+  background-color: #ff5c004d;
+}
+
+.best-sellers {
+  text-align: center;
+  margin: 80px 0 48px 0;
 }
 
 h4 {
@@ -254,6 +302,7 @@ h4 {
   font-weight: 700;
   letter-spacing: 1px;
   text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.50);
+  margin-bottom: 28px;
 }
 
 .menu-description {
@@ -274,6 +323,7 @@ h4 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  margin: 73px 0 114px 0;
   padding: 16px 0;
 }
 
@@ -283,6 +333,7 @@ h4 {
 
 h3 img {
   width: 268px;
+  margin: 75px 0 31px 0;
 }
 
 h5 {
@@ -293,6 +344,7 @@ h5 {
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 1px;
+  margin-bottom: 16px;
 }
 
 .infos {
@@ -337,6 +389,18 @@ h5 {
 
 .follow:hover {
   background-color: #1bc200;
+}
+
+.email-address {
+  background-color: #fbcb4f4d;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  color: #abaaa9;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 42px;
+  margin: 16px 0;
+  padding: 12px 14px 12px;
 }
 
 .context {
