@@ -118,6 +118,13 @@ a {
   margin: 0 10px;
 }
 
+@media (max-width: 576px) {
+  .first-quote {
+    font-size: 30px;
+    margin: 47px 32px 30px;
+  }
+}
+
 .forms {
   background-color: #ff0000;
   border: 1.5px solid #000000;
@@ -127,6 +134,12 @@ a {
   text-align: center;
   margin: 41px auto 0;
   padding: 16px 0;
+}
+
+@media (max-width: 576px) {
+  .forms {
+    margin: 0 0 47px;
+  }
 }
 
 .forms a {
@@ -143,6 +156,12 @@ a {
   background-position: center;
   padding-top: 230px;
   padding-bottom: 241px;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    padding: 15px;
+  }
 }
 
 .forms:hover {
@@ -565,6 +584,13 @@ h5 {
   }
 }
 
+@media (max-width: 576px) {
+  .center-mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .email-address {
   background-color: #fbcb4f4d;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
@@ -600,7 +626,9 @@ h5 {
 
 @media (max-width: 576px) {
   .networks {
-    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 69px;
   }
 }
 
