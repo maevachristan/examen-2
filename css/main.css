@@ -94,6 +94,7 @@ h1 img {
 
 a {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .home-menu {
@@ -378,6 +379,7 @@ h2 {
   font-weight: 700;
   margin: 19px 0 54px 0;
   padding: 13px 30px;
+  white-space: nowrap;
 }
 
 .all-events-two {
@@ -500,6 +502,12 @@ h3 img {
   }
 }
 
+@media (min-width: 580px) and (max-width: 991px) {
+  h3 img {
+    margin: 40px 0 20px;
+  }
+}
+
 h5 {
   color: #ffffff;
   text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.50);
@@ -517,6 +525,12 @@ h5 {
     -webkit-text-stroke: 1.75px #000000;
     text-align: center;
     margin: 0;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+  h5 {
+    margin: 30px 0 15px;
   }
 }
 
@@ -566,6 +580,12 @@ h5 {
   }
 }
 
+@media (min-width: 580px) and (max-width: 991px) {
+  .book-table {
+    margin: 0 0 30px;
+  }
+}
+
 .follow {
   background-color: #00b2ff;
   border: 1.5px solid #000000;
@@ -588,6 +608,12 @@ h5 {
 @media (max-width: 576px) {
   .follow {
     margin: 0 0 40px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+  .follow {
+    margin: 20px 0 30px;
   }
 }
 
@@ -636,6 +662,12 @@ h5 {
     display: flex;
     justify-content: space-around;
     margin: 40px 69px;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+  .networks {
+    margin: 10px 0 50px;
   }
 }
 
