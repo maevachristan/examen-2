@@ -65,14 +65,21 @@ video {
   border: 1px solid #00ff2a33;
 } */
 
+.burger {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.burger img {
+  width: 70px;
+}
 
 @media (min-width: 1075px) {
   .burger {
     display: none;
   }
 }
-
-
 
 @media (max-width: 1075px) {
   .mobile {
