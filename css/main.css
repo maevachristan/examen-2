@@ -19,6 +19,14 @@ html {
 // reset rules
 // ==================================== */
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #ffc805;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,10 +44,6 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
-}
-
-a {
-  color: inherit;
 }
 
 img,
@@ -116,12 +120,14 @@ a {
   font-weight: 900;
   text-align: center;
   margin: 0 10px;
+  padding: 0 333px;
 }
 
 @media (max-width: 576px) {
   .first-quote {
     font-size: 30px;
     margin: 47px 32px 30px;
+    padding: 0 10px;
   }
 }
 
@@ -271,6 +277,7 @@ h2 {
   aspect-ratio: 1.2;
   object-fit: cover;
   border-radius: 30px;
+  box-shadow: 6px 6px 15px 3px rgba(0, 0, 0, 0.30);
 }
 
 @media (max-width: 576px) {
