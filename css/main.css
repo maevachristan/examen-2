@@ -431,6 +431,13 @@ h2 {
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  .best-sellers {
+    font-size: 40px;
+    white-space: nowrap;
+  }
+}
+
 h4 {
   color: #000000;
   -webkit-text-stroke: 1px #ffffff;
@@ -450,6 +457,12 @@ h4 {
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  h4 {
+    font-size: 35px;
+  }
+}
+
 .menu-description {
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
@@ -461,6 +474,13 @@ h4 {
   .menu-description {
     font-size: 20px;
     margin: 0 52px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .menu-description {
+    font-size: 20px;
+    padding: 0 50px;
   }
 }
 
@@ -487,6 +507,12 @@ h4 {
 @media (max-width: 576px) {
   .all-food {
     margin: 51px 0;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .all-food {
+    margin: 60px 0;
   }
 }
 
@@ -528,7 +554,7 @@ h5 {
   }
 }
 
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
   h5 {
     margin: 30px 0 15px;
   }
@@ -580,7 +606,7 @@ h5 {
   }
 }
 
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
   .book-table {
     margin: 0 0 30px;
   }
@@ -611,7 +637,7 @@ h5 {
   }
 }
 
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
   .follow {
     margin: 20px 0 30px;
   }
@@ -665,7 +691,7 @@ h5 {
   }
 }
 
-@media (min-width: 580px) and (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
   .networks {
     margin: 10px 0 50px;
   }
