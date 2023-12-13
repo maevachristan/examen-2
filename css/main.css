@@ -225,6 +225,13 @@ a {
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  .next-events {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
 h2 {
   color: #ffffff;
   -webkit-text-stroke: 2px #000000;
@@ -273,6 +280,12 @@ h2 {
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  .event {
+    margin: 0 0 50px;
+  }
+}
+
 .event img {
   width: 100%;
   aspect-ratio: 1.2;
@@ -309,6 +322,13 @@ h2 {
   }
 }
 
+@media (min-width: 577px) and (max-width: 991px) {
+  .event-date {
+    font-size: 28px;
+    bottom: 68px;
+  }
+}
+
 .event-title {
   font-family: 'Super Mario 256', sans-serif;
   -webkit-text-stroke: 1.5px #ffffff;
@@ -328,6 +348,13 @@ h2 {
     left: 21px;
     right: 23px;
     bottom: 17px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .event-title {
+    font-size: 30px;
+    letter-spacing: 2px;
   }
 }
 
@@ -352,6 +379,15 @@ h2 {
 @media (max-width: 576px) {
   .golden-event {
     -webkit-text-stroke: 0.5px #ffffff;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .golden-event {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    padding: 12px 0;
   }
 }
 
@@ -405,6 +441,12 @@ h2 {
 @media (max-width: 576px) {
   .all-events-two {
     margin: 11px 76px 51px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .all-events-two {
+    margin: 10px 0 60px;
   }
 }
 
