@@ -580,6 +580,12 @@ h4 {
   }
 }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+  .menu-description {
+    font-size: 15px;
+  }
+}
+
 .all-food {
   background-color: #ff0000;
   border: 1.5px solid #000000;
@@ -609,6 +615,18 @@ h4 {
 @media (min-width: 577px) and (max-width: 991px) {
   .all-food {
     margin: 60px 0;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .all-food {
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .all-food {
+    margin: 50px 0;
   }
 }
 
